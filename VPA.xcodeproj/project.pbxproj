@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2FF3E71BDF42E100A7E25F /* CreatinineConcentration.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FF3E61BDF42E100A7E25F /* CreatinineConcentration.m */; settings = {ASSET_TAGS = (); }; };
+		BD38F9CF1BCE0A5C00ECC20D /* UrineCreatinine.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38F9CE1BCE0A5C00ECC20D /* UrineCreatinine.m */; settings = {ASSET_TAGS = (); }; };
+		BD3D84B71BCAD28F00DFD878 /* _24HourUrineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3D84B61BCAD28F00DFD878 /* _24HourUrineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD63580E1BD586DD00B30607 /* Creatinine.m in Sources */ = {isa = PBXBuildFile; fileRef = BD63580D1BD586DD00B30607 /* Creatinine.m */; settings = {ASSET_TAGS = (); }; };
+		BD6358111BD5871F00B30607 /* Molecule.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6358101BD5871F00B30607 /* Molecule.m */; settings = {ASSET_TAGS = (); }; };
+		BD6E9ECE1BB74B6E00BF76AA /* EliminationTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9ECD1BB74B6E00BF76AA /* EliminationTableItem.m */; settings = {ASSET_TAGS = (); }; };
+		BD6E9ED11BB74BF600BF76AA /* DialysisTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9ED01BB74BF600BF76AA /* DialysisTableItem.m */; settings = {ASSET_TAGS = (); }; };
+		BD6E9ED41BB74C1800BF76AA /* CalculatedClearanceTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9ED31BB74C1800BF76AA /* CalculatedClearanceTableItem.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BD4C1BB4687100AB9F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD4B1BB4687100AB9F93 /* main.m */; };
+		BD81BD651BB4687100AB9F93 /* VPATests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD641BB4687100AB9F93 /* VPATests.m */; };
+		BD81BD701BB4687100AB9F93 /* VPAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD6F1BB4687100AB9F93 /* VPAUITests.m */; };
+		BD81BD8C1BB46A5E00AB9F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD81BD7D1BB46A5E00AB9F93 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BD81BD8D1BB46A5E00AB9F93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD81BD7F1BB46A5E00AB9F93 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		BD81BD8E1BB46A5E00AB9F93 /* BasicInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD811BB46A5E00AB9F93 /* BasicInformationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BD8F1BB46A5E00AB9F93 /* VancomycinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD821BB46A5E00AB9F93 /* VancomycinViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BD901BB46A5E00AB9F93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD81BD841BB46A5E00AB9F93 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		BD81BD911BB46A5E00AB9F93 /* RenalInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD861BB46A5E00AB9F93 /* RenalInformationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BD921BB46A5E00AB9F93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD891BB46A5E00AB9F93 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BD931BB46A5E00AB9F93 /* VancomcyinNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD8B1BB46A5E00AB9F93 /* VancomcyinNavigationControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB11BB46ABD00AB9F93 /* CockcroftGaultClearance.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD951BB46ABD00AB9F93 /* CockcroftGaultClearance.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB21BB46ABD00AB9F93 /* Amputations.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD961BB46ABD00AB9F93 /* Amputations.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB31BB46ABD00AB9F93 /* BasicInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD981BB46ABD00AB9F93 /* BasicInformation.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB41BB46ABD00AB9F93 /* Height.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD9A1BB46ABD00AB9F93 /* Height.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB51BB46ABD00AB9F93 /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD9B1BB46ABD00AB9F93 /* Weight.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB61BB46ABD00AB9F93 /* TableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD9D1BB46ABD00AB9F93 /* TableItem.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB71BB46ABD00AB9F93 /* GFRInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDA01BB46ABD00AB9F93 /* GFRInformation.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB81BB46ABD00AB9F93 /* RenalInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDA11BB46ABD00AB9F93 /* RenalInformation.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDB91BB46ABD00AB9F93 /* BUN.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDA21BB46ABD00AB9F93 /* BUN.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDBA1BB46ABD00AB9F93 /* SerumCreatinine.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDA61BB46ABD00AB9F93 /* SerumCreatinine.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDBB1BB46ABD00AB9F93 /* IdealBodyWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDA91BB46ABD00AB9F93 /* IdealBodyWeight.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDBC1BB46ABD00AB9F93 /* Age.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDAB1BB46ABD00AB9F93 /* Age.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDBD1BB46ABD00AB9F93 /* Gender.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDAC1BB46ABD00AB9F93 /* Gender.m */; settings = {ASSET_TAGS = (); }; };
+		BD81BDBE1BB46ABD00AB9F93 /* FloatValueWithUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81BDAF1BB46ABD00AB9F93 /* FloatValueWithUnits.m */; settings = {ASSET_TAGS = (); }; };
+		BD8E98FD1BBE1A64007C4222 /* _24HourUrineCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8E98FC1BBE1A64007C4222 /* _24HourUrineCollection.m */; settings = {ASSET_TAGS = (); }; };
+		BD907FDC1BBB6EC000E2D7C4 /* CalculatedClearanceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD907FDB1BBB6EC000E2D7C4 /* CalculatedClearanceInformation.m */; settings = {ASSET_TAGS = (); }; };
+		BD907FDF1BBB73BB00E2D7C4 /* SingleSerumCreatinineInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD907FDE1BBB73BB00E2D7C4 /* SingleSerumCreatinineInformation.m */; settings = {ASSET_TAGS = (); }; };
+		BD907FE21BBB73D200E2D7C4 /* DualSerumCreatinineInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD907FE11BBB73D200E2D7C4 /* DualSerumCreatinineInformation.m */; settings = {ASSET_TAGS = (); }; };
+		BDEA9EE51BCFF6A1002311B5 /* Volume.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA9EE41BCFF6A1002311B5 /* Volume.m */; settings = {ASSET_TAGS = (); }; };
+		BDF684A31BC9A58800A61677 /* CalculatedClearanceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF684A21BC9A58800A61677 /* CalculatedClearanceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BDFA7E861BDF051C00416FD7 /* Concentration.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA7E851BDF051B00416FD7 /* Concentration.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD81BD611BB4687100AB9F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD81BD3F1BB4687100AB9F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD81BD461BB4687100AB9F93;
+			remoteInfo = VPA;
+		};
+		BD81BD6C1BB4687100AB9F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD81BD3F1BB4687100AB9F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD81BD461BB4687100AB9F93;
+			remoteInfo = VPA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2FF3E51BDF42E100A7E25F /* CreatinineConcentration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatinineConcentration.h; sourceTree = "<group>"; };
+		BD2FF3E61BDF42E100A7E25F /* CreatinineConcentration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatinineConcentration.m; sourceTree = "<group>"; };
+		BD38F9CD1BCE0A5C00ECC20D /* UrineCreatinine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrineCreatinine.h; sourceTree = "<group>"; };
+		BD38F9CE1BCE0A5C00ECC20D /* UrineCreatinine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrineCreatinine.m; sourceTree = "<group>"; };
+		BD3D84B51BCAD28F00DFD878 /* _24HourUrineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _24HourUrineViewController.h; sourceTree = "<group>"; };
+		BD3D84B61BCAD28F00DFD878 /* _24HourUrineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _24HourUrineViewController.m; sourceTree = "<group>"; };
+		BD63580C1BD586DD00B30607 /* Creatinine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creatinine.h; sourceTree = "<group>"; };
+		BD63580D1BD586DD00B30607 /* Creatinine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creatinine.m; sourceTree = "<group>"; };
+		BD63580F1BD5871F00B30607 /* Molecule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Molecule.h; sourceTree = "<group>"; };
+		BD6358101BD5871F00B30607 /* Molecule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Molecule.m; sourceTree = "<group>"; };
+		BD6E9ECC1BB74B6E00BF76AA /* EliminationTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EliminationTableItem.h; sourceTree = "<group>"; };
+		BD6E9ECD1BB74B6E00BF76AA /* EliminationTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EliminationTableItem.m; sourceTree = "<group>"; };
+		BD6E9ECF1BB74BF600BF76AA /* DialysisTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialysisTableItem.h; sourceTree = "<group>"; };
+		BD6E9ED01BB74BF600BF76AA /* DialysisTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialysisTableItem.m; sourceTree = "<group>"; };
+		BD6E9ED21BB74C1800BF76AA /* CalculatedClearanceTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatedClearanceTableItem.h; sourceTree = "<group>"; };
+		BD6E9ED31BB74C1800BF76AA /* CalculatedClearanceTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatedClearanceTableItem.m; sourceTree = "<group>"; };
+		BD81BD471BB4687100AB9F93 /* VPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD81BD4B1BB4687100AB9F93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD81BD5B1BB4687100AB9F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD81BD601BB4687100AB9F93 /* VPATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD81BD641BB4687100AB9F93 /* VPATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPATests.m; sourceTree = "<group>"; };
+		BD81BD661BB4687100AB9F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD81BD6B1BB4687100AB9F93 /* VPAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD81BD6F1BB4687100AB9F93 /* VPAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPAUITests.m; sourceTree = "<group>"; };
+		BD81BD711BB4687100AB9F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD81BD7E1BB46A5E00AB9F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../VP/VP/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD81BD801BB46A5E00AB9F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../../VP/VP/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD81BD811BB46A5E00AB9F93 /* BasicInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInformationViewController.m; path = ../../../VP/VP/BasicInformationViewController.m; sourceTree = "<group>"; };
+		BD81BD821BB46A5E00AB9F93 /* VancomycinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VancomycinViewController.m; path = ../../../VP/VP/VancomycinViewController.m; sourceTree = "<group>"; };
+		BD81BD831BB46A5E00AB9F93 /* BasicInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInformationViewController.h; path = ../../../VP/VP/BasicInformationViewController.h; sourceTree = "<group>"; };
+		BD81BD841BB46A5E00AB9F93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../VP/VP/Images.xcassets; sourceTree = "<group>"; };
+		BD81BD851BB46A5E00AB9F93 /* RenalInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenalInformationViewController.h; path = ../../../VP/VP/RenalInformationViewController.h; sourceTree = "<group>"; };
+		BD81BD861BB46A5E00AB9F93 /* RenalInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RenalInformationViewController.m; path = ../../../VP/VP/RenalInformationViewController.m; sourceTree = "<group>"; };
+		BD81BD871BB46A5E00AB9F93 /* VancomycinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VancomycinViewController.h; path = ../../../VP/VP/VancomycinViewController.h; sourceTree = "<group>"; };
+		BD81BD881BB46A5E00AB9F93 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../VP/VP/AppDelegate.h; sourceTree = "<group>"; };
+		BD81BD891BB46A5E00AB9F93 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../VP/VP/AppDelegate.m; sourceTree = "<group>"; };
+		BD81BD8A1BB46A5E00AB9F93 /* VancomcyinNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VancomcyinNavigationControllerViewController.h; path = ../../../VP/VP/VancomcyinNavigationControllerViewController.h; sourceTree = "<group>"; };
+		BD81BD8B1BB46A5E00AB9F93 /* VancomcyinNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VancomcyinNavigationControllerViewController.m; path = ../../../VP/VP/VancomcyinNavigationControllerViewController.m; sourceTree = "<group>"; };
+		BD81BD941BB46ABD00AB9F93 /* CockcroftGaultClearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CockcroftGaultClearance.h; path = ../../../VP/CockcroftGaultClearance.h; sourceTree = "<group>"; };
+		BD81BD951BB46ABD00AB9F93 /* CockcroftGaultClearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CockcroftGaultClearance.m; path = ../../../VP/CockcroftGaultClearance.m; sourceTree = "<group>"; };
+		BD81BD961BB46ABD00AB9F93 /* Amputations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Amputations.m; path = ../../../VP/Amputations.m; sourceTree = "<group>"; };
+		BD81BD971BB46ABD00AB9F93 /* Amputations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Amputations.h; path = ../../../VP/Amputations.h; sourceTree = "<group>"; };
+		BD81BD981BB46ABD00AB9F93 /* BasicInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInformation.m; path = ../../../VP/BasicInformation.m; sourceTree = "<group>"; };
+		BD81BD991BB46ABD00AB9F93 /* Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Height.h; path = ../../../VP/Height.h; sourceTree = "<group>"; };
+		BD81BD9A1BB46ABD00AB9F93 /* Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Height.m; path = ../../../VP/Height.m; sourceTree = "<group>"; };
+		BD81BD9B1BB46ABD00AB9F93 /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weight.m; path = ../../../VP/Weight.m; sourceTree = "<group>"; };
+		BD81BD9C1BB46ABD00AB9F93 /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weight.h; path = ../../../VP/Weight.h; sourceTree = "<group>"; };
+		BD81BD9D1BB46ABD00AB9F93 /* TableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableItem.m; path = ../../../VP/TableItem.m; sourceTree = "<group>"; };
+		BD81BD9E1BB46ABD00AB9F93 /* TableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableItem.h; path = ../../../VP/TableItem.h; sourceTree = "<group>"; };
+		BD81BD9F1BB46ABD00AB9F93 /* GFRInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFRInformation.h; path = ../../../VP/GFRInformation.h; sourceTree = "<group>"; };
+		BD81BDA01BB46ABD00AB9F93 /* GFRInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFRInformation.m; path = ../../../VP/GFRInformation.m; sourceTree = "<group>"; };
+		BD81BDA11BB46ABD00AB9F93 /* RenalInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RenalInformation.m; path = ../../../VP/RenalInformation.m; sourceTree = "<group>"; };
+		BD81BDA21BB46ABD00AB9F93 /* BUN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUN.m; path = ../../../VP/BUN.m; sourceTree = "<group>"; };
+		BD81BDA31BB46ABD00AB9F93 /* RenalInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenalInformation.h; path = ../../../VP/RenalInformation.h; sourceTree = "<group>"; };
+		BD81BDA41BB46ABD00AB9F93 /* BUN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUN.h; path = ../../../VP/BUN.h; sourceTree = "<group>"; };
+		BD81BDA51BB46ABD00AB9F93 /* SerumCreatinine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SerumCreatinine.h; path = ../../../VP/SerumCreatinine.h; sourceTree = "<group>"; };
+		BD81BDA61BB46ABD00AB9F93 /* SerumCreatinine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SerumCreatinine.m; path = ../../../VP/SerumCreatinine.m; sourceTree = "<group>"; };
+		BD81BDA71BB46ABD00AB9F93 /* BasicInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInformation.h; path = ../../../VP/BasicInformation.h; sourceTree = "<group>"; };
+		BD81BDA81BB46ABD00AB9F93 /* IdealBodyWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdealBodyWeight.h; path = ../../../VP/IdealBodyWeight.h; sourceTree = "<group>"; };
+		BD81BDA91BB46ABD00AB9F93 /* IdealBodyWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IdealBodyWeight.m; path = ../../../VP/IdealBodyWeight.m; sourceTree = "<group>"; };
+		BD81BDAA1BB46ABD00AB9F93 /* Age.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Age.h; path = ../../../VP/Age.h; sourceTree = "<group>"; };
+		BD81BDAB1BB46ABD00AB9F93 /* Age.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Age.m; path = ../../../VP/Age.m; sourceTree = "<group>"; };
+		BD81BDAC1BB46ABD00AB9F93 /* Gender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gender.m; path = ../../../VP/Gender.m; sourceTree = "<group>"; };
+		BD81BDAD1BB46ABD00AB9F93 /* Gender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gender.h; path = ../../../VP/Gender.h; sourceTree = "<group>"; };
+		BD81BDAE1BB46ABD00AB9F93 /* FloatValueWithUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FloatValueWithUnits.h; path = ../../../VP/FloatValueWithUnits.h; sourceTree = "<group>"; };
+		BD81BDAF1BB46ABD00AB9F93 /* FloatValueWithUnits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FloatValueWithUnits.m; path = ../../../VP/FloatValueWithUnits.m; sourceTree = "<group>"; };
+		BD81BDB01BB46ABD00AB9F93 /* NumberValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberValue.h; path = ../../../VP/NumberValue.h; sourceTree = "<group>"; };
+		BD8E98FB1BBE1A64007C4222 /* _24HourUrineCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _24HourUrineCollection.h; sourceTree = "<group>"; };
+		BD8E98FC1BBE1A64007C4222 /* _24HourUrineCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _24HourUrineCollection.m; sourceTree = "<group>"; };
+		BD907FDA1BBB6EC000E2D7C4 /* CalculatedClearanceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatedClearanceInformation.h; sourceTree = "<group>"; };
+		BD907FDB1BBB6EC000E2D7C4 /* CalculatedClearanceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatedClearanceInformation.m; sourceTree = "<group>"; };
+		BD907FDD1BBB73BB00E2D7C4 /* SingleSerumCreatinineInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleSerumCreatinineInformation.h; sourceTree = "<group>"; };
+		BD907FDE1BBB73BB00E2D7C4 /* SingleSerumCreatinineInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleSerumCreatinineInformation.m; sourceTree = "<group>"; };
+		BD907FE01BBB73D200E2D7C4 /* DualSerumCreatinineInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DualSerumCreatinineInformation.h; sourceTree = "<group>"; };
+		BD907FE11BBB73D200E2D7C4 /* DualSerumCreatinineInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DualSerumCreatinineInformation.m; sourceTree = "<group>"; };
+		BDEA9EE31BCFF6A1002311B5 /* Volume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volume.h; sourceTree = "<group>"; };
+		BDEA9EE41BCFF6A1002311B5 /* Volume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volume.m; sourceTree = "<group>"; };
+		BDF684A11BC9A58800A61677 /* CalculatedClearanceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatedClearanceTableViewController.h; sourceTree = "<group>"; };
+		BDF684A21BC9A58800A61677 /* CalculatedClearanceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatedClearanceTableViewController.m; sourceTree = "<group>"; };
+		BDFA7E841BDF051B00416FD7 /* Concentration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concentration.h; sourceTree = "<group>"; };
+		BDFA7E851BDF051B00416FD7 /* Concentration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concentration.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD81BD441BB4687100AB9F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81BD5D1BB4687100AB9F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81BD681BB4687100AB9F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD81BD3E1BB4687100AB9F93 = {
+			isa = PBXGroup;
+			children = (
+				BD81BD491BB4687100AB9F93 /* VPA */,
+				BD81BD631BB4687100AB9F93 /* VPATests */,
+				BD81BD6E1BB4687100AB9F93 /* VPAUITests */,
+				BD81BD481BB4687100AB9F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD81BD481BB4687100AB9F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD81BD471BB4687100AB9F93 /* VPA.app */,
+				BD81BD601BB4687100AB9F93 /* VPATests.xctest */,
+				BD81BD6B1BB4687100AB9F93 /* VPAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD81BD491BB4687100AB9F93 /* VPA */ = {
+			isa = PBXGroup;
+			children = (
+				BD907FD91BBB6E2C00E2D7C4 /* BasicInformationGroup */,
+				BD907FD81BBB6D6600E2D7C4 /* ClearanceGroup */,
+				BD81BD7D1BB46A5E00AB9F93 /* Main.storyboard */,
+				BD3D84B51BCAD28F00DFD878 /* _24HourUrineViewController.h */,
+				BD3D84B61BCAD28F00DFD878 /* _24HourUrineViewController.m */,
+				BD81BD9D1BB46ABD00AB9F93 /* TableItem.m */,
+				BD81BD9E1BB46ABD00AB9F93 /* TableItem.h */,
+				BD81BDAE1BB46ABD00AB9F93 /* FloatValueWithUnits.h */,
+				BD81BDAF1BB46ABD00AB9F93 /* FloatValueWithUnits.m */,
+				BD81BDB01BB46ABD00AB9F93 /* NumberValue.h */,
+				BD81BD7F1BB46A5E00AB9F93 /* LaunchScreen.xib */,
+				BD81BD811BB46A5E00AB9F93 /* BasicInformationViewController.m */,
+				BD81BD831BB46A5E00AB9F93 /* BasicInformationViewController.h */,
+				BD81BD841BB46A5E00AB9F93 /* Images.xcassets */,
+				BD81BD851BB46A5E00AB9F93 /* RenalInformationViewController.h */,
+				BD81BD861BB46A5E00AB9F93 /* RenalInformationViewController.m */,
+				BD81BD871BB46A5E00AB9F93 /* VancomycinViewController.h */,
+				BD81BD821BB46A5E00AB9F93 /* VancomycinViewController.m */,
+				BDF684A11BC9A58800A61677 /* CalculatedClearanceTableViewController.h */,
+				BDF684A21BC9A58800A61677 /* CalculatedClearanceTableViewController.m */,
+				BD81BD881BB46A5E00AB9F93 /* AppDelegate.h */,
+				BD81BD891BB46A5E00AB9F93 /* AppDelegate.m */,
+				BD81BD8A1BB46A5E00AB9F93 /* VancomcyinNavigationControllerViewController.h */,
+				BD81BD8B1BB46A5E00AB9F93 /* VancomcyinNavigationControllerViewController.m */,
+				BD81BD5B1BB4687100AB9F93 /* Info.plist */,
+				BD81BD4A1BB4687100AB9F93 /* Supporting Files */,
+			);
+			path = VPA;
+			sourceTree = "<group>";
+		};
+		BD81BD4A1BB4687100AB9F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD81BD4B1BB4687100AB9F93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD81BD631BB4687100AB9F93 /* VPATests */ = {
+			isa = PBXGroup;
+			children = (
+				BD81BD641BB4687100AB9F93 /* VPATests.m */,
+				BD81BD661BB4687100AB9F93 /* Info.plist */,
+			);
+			path = VPATests;
+			sourceTree = "<group>";
+		};
+		BD81BD6E1BB4687100AB9F93 /* VPAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD81BD6F1BB4687100AB9F93 /* VPAUITests.m */,
+				BD81BD711BB4687100AB9F93 /* Info.plist */,
+			);
+			path = VPAUITests;
+			sourceTree = "<group>";
+		};
+		BD907FD81BBB6D6600E2D7C4 /* ClearanceGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BD81BDA31BB46ABD00AB9F93 /* RenalInformation.h */,
+				BD81BDA11BB46ABD00AB9F93 /* RenalInformation.m */,
+				BD81BDA51BB46ABD00AB9F93 /* SerumCreatinine.h */,
+				BD81BDA61BB46ABD00AB9F93 /* SerumCreatinine.m */,
+				BD38F9CD1BCE0A5C00ECC20D /* UrineCreatinine.h */,
+				BD38F9CE1BCE0A5C00ECC20D /* UrineCreatinine.m */,
+				BD6E9ECC1BB74B6E00BF76AA /* EliminationTableItem.h */,
+				BD6E9ECD1BB74B6E00BF76AA /* EliminationTableItem.m */,
+				BD6E9ECF1BB74BF600BF76AA /* DialysisTableItem.h */,
+				BD6E9ED01BB74BF600BF76AA /* DialysisTableItem.m */,
+				BD6E9ED31BB74C1800BF76AA /* CalculatedClearanceTableItem.m */,
+				BD6E9ED21BB74C1800BF76AA /* CalculatedClearanceTableItem.h */,
+				BD81BDA21BB46ABD00AB9F93 /* BUN.m */,
+				BD81BDA41BB46ABD00AB9F93 /* BUN.h */,
+				BD81BDA01BB46ABD00AB9F93 /* GFRInformation.m */,
+				BD81BD9F1BB46ABD00AB9F93 /* GFRInformation.h */,
+				BD81BD951BB46ABD00AB9F93 /* CockcroftGaultClearance.m */,
+				BD81BD941BB46ABD00AB9F93 /* CockcroftGaultClearance.h */,
+				BD907FDA1BBB6EC000E2D7C4 /* CalculatedClearanceInformation.h */,
+				BD907FDB1BBB6EC000E2D7C4 /* CalculatedClearanceInformation.m */,
+				BD907FDD1BBB73BB00E2D7C4 /* SingleSerumCreatinineInformation.h */,
+				BD907FDE1BBB73BB00E2D7C4 /* SingleSerumCreatinineInformation.m */,
+				BD907FE01BBB73D200E2D7C4 /* DualSerumCreatinineInformation.h */,
+				BD907FE11BBB73D200E2D7C4 /* DualSerumCreatinineInformation.m */,
+				BD8E98FB1BBE1A64007C4222 /* _24HourUrineCollection.h */,
+				BD8E98FC1BBE1A64007C4222 /* _24HourUrineCollection.m */,
+				BDEA9EE31BCFF6A1002311B5 /* Volume.h */,
+				BDEA9EE41BCFF6A1002311B5 /* Volume.m */,
+				BDFA7E841BDF051B00416FD7 /* Concentration.h */,
+				BDFA7E851BDF051B00416FD7 /* Concentration.m */,
+				BD2FF3E51BDF42E100A7E25F /* CreatinineConcentration.h */,
+				BD2FF3E61BDF42E100A7E25F /* CreatinineConcentration.m */,
+				BD63580C1BD586DD00B30607 /* Creatinine.h */,
+				BD63580D1BD586DD00B30607 /* Creatinine.m */,
+				BD63580F1BD5871F00B30607 /* Molecule.h */,
+				BD6358101BD5871F00B30607 /* Molecule.m */,
+			);
+			name = ClearanceGroup;
+			sourceTree = "<group>";
+		};
+		BD907FD91BBB6E2C00E2D7C4 /* BasicInformationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BD81BDA71BB46ABD00AB9F93 /* BasicInformation.h */,
+				BD81BD981BB46ABD00AB9F93 /* BasicInformation.m */,
+				BD81BD961BB46ABD00AB9F93 /* Amputations.m */,
+				BD81BD971BB46ABD00AB9F93 /* Amputations.h */,
+				BD81BD991BB46ABD00AB9F93 /* Height.h */,
+				BD81BD9A1BB46ABD00AB9F93 /* Height.m */,
+				BD81BD9B1BB46ABD00AB9F93 /* Weight.m */,
+				BD81BD9C1BB46ABD00AB9F93 /* Weight.h */,
+				BD81BDAA1BB46ABD00AB9F93 /* Age.h */,
+				BD81BDAB1BB46ABD00AB9F93 /* Age.m */,
+				BD81BDA81BB46ABD00AB9F93 /* IdealBodyWeight.h */,
+				BD81BDA91BB46ABD00AB9F93 /* IdealBodyWeight.m */,
+				BD81BDAD1BB46ABD00AB9F93 /* Gender.h */,
+				BD81BDAC1BB46ABD00AB9F93 /* Gender.m */,
+			);
+			name = BasicInformationGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD81BD461BB4687100AB9F93 /* VPA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD81BD741BB4687100AB9F93 /* Build configuration list for PBXNativeTarget "VPA" */;
+			buildPhases = (
+				BD81BD431BB4687100AB9F93 /* Sources */,
+				BD81BD441BB4687100AB9F93 /* Frameworks */,
+				BD81BD451BB4687100AB9F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPA;
+			productName = VPA;
+			productReference = BD81BD471BB4687100AB9F93 /* VPA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD81BD5F1BB4687100AB9F93 /* VPATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD81BD771BB4687100AB9F93 /* Build configuration list for PBXNativeTarget "VPATests" */;
+			buildPhases = (
+				BD81BD5C1BB4687100AB9F93 /* Sources */,
+				BD81BD5D1BB4687100AB9F93 /* Frameworks */,
+				BD81BD5E1BB4687100AB9F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD81BD621BB4687100AB9F93 /* PBXTargetDependency */,
+			);
+			name = VPATests;
+			productName = VPATests;
+			productReference = BD81BD601BB4687100AB9F93 /* VPATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD81BD6A1BB4687100AB9F93 /* VPAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD81BD7A1BB4687100AB9F93 /* Build configuration list for PBXNativeTarget "VPAUITests" */;
+			buildPhases = (
+				BD81BD671BB4687100AB9F93 /* Sources */,
+				BD81BD681BB4687100AB9F93 /* Frameworks */,
+				BD81BD691BB4687100AB9F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD81BD6D1BB4687100AB9F93 /* PBXTargetDependency */,
+			);
+			name = VPAUITests;
+			productName = VPAUITests;
+			productReference = BD81BD6B1BB4687100AB9F93 /* VPAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD81BD3F1BB4687100AB9F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Brandon Koenning";
+				TargetAttributes = {
+					BD81BD461BB4687100AB9F93 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BD81BD5F1BB4687100AB9F93 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD81BD461BB4687100AB9F93;
+					};
+					BD81BD6A1BB4687100AB9F93 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD81BD461BB4687100AB9F93;
+					};
+				};
+			};
+			buildConfigurationList = BD81BD421BB4687100AB9F93 /* Build configuration list for PBXProject "VPA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD81BD3E1BB4687100AB9F93;
+			productRefGroup = BD81BD481BB4687100AB9F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD81BD461BB4687100AB9F93 /* VPA */,
+				BD81BD5F1BB4687100AB9F93 /* VPATests */,
+				BD81BD6A1BB4687100AB9F93 /* VPAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD81BD451BB4687100AB9F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD81BD901BB46A5E00AB9F93 /* Images.xcassets in Resources */,
+				BD81BD8D1BB46A5E00AB9F93 /* LaunchScreen.xib in Resources */,
+				BD81BD8C1BB46A5E00AB9F93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81BD5E1BB4687100AB9F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81BD691BB4687100AB9F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD81BD431BB4687100AB9F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8E98FD1BBE1A64007C4222 /* _24HourUrineCollection.m in Sources */,
+				BD907FE21BBB73D200E2D7C4 /* DualSerumCreatinineInformation.m in Sources */,
+				BD81BD911BB46A5E00AB9F93 /* RenalInformationViewController.m in Sources */,
+				BD81BD8F1BB46A5E00AB9F93 /* VancomycinViewController.m in Sources */,
+				BD81BD8E1BB46A5E00AB9F93 /* BasicInformationViewController.m in Sources */,
+				BD81BD4C1BB4687100AB9F93 /* main.m in Sources */,
+				BD81BD921BB46A5E00AB9F93 /* AppDelegate.m in Sources */,
+				BD81BDB21BB46ABD00AB9F93 /* Amputations.m in Sources */,
+				BD81BDBB1BB46ABD00AB9F93 /* IdealBodyWeight.m in Sources */,
+				BD63580E1BD586DD00B30607 /* Creatinine.m in Sources */,
+				BD81BD931BB46A5E00AB9F93 /* VancomcyinNavigationControllerViewController.m in Sources */,
+				BDFA7E861BDF051C00416FD7 /* Concentration.m in Sources */,
+				BDEA9EE51BCFF6A1002311B5 /* Volume.m in Sources */,
+				BD907FDF1BBB73BB00E2D7C4 /* SingleSerumCreatinineInformation.m in Sources */,
+				BD81BDB31BB46ABD00AB9F93 /* BasicInformation.m in Sources */,
+				BD81BDBD1BB46ABD00AB9F93 /* Gender.m in Sources */,
+				BD907FDC1BBB6EC000E2D7C4 /* CalculatedClearanceInformation.m in Sources */,
+				BDF684A31BC9A58800A61677 /* CalculatedClearanceTableViewController.m in Sources */,
+				BD81BDBE1BB46ABD00AB9F93 /* FloatValueWithUnits.m in Sources */,
+				BD81BDBC1BB46ABD00AB9F93 /* Age.m in Sources */,
+				BD81BDB51BB46ABD00AB9F93 /* Weight.m in Sources */,
+				BD3D84B71BCAD28F00DFD878 /* _24HourUrineViewController.m in Sources */,
+				BD81BDB61BB46ABD00AB9F93 /* TableItem.m in Sources */,
+				BD81BDBA1BB46ABD00AB9F93 /* SerumCreatinine.m in Sources */,
+				BD38F9CF1BCE0A5C00ECC20D /* UrineCreatinine.m in Sources */,
+				BD6E9ED41BB74C1800BF76AA /* CalculatedClearanceTableItem.m in Sources */,
+				BD81BDB41BB46ABD00AB9F93 /* Height.m in Sources */,
+				BD6358111BD5871F00B30607 /* Molecule.m in Sources */,
+				BD2FF3E71BDF42E100A7E25F /* CreatinineConcentration.m in Sources */,
+				BD81BDB71BB46ABD00AB9F93 /* GFRInformation.m in Sources */,
+				BD81BDB91BB46ABD00AB9F93 /* BUN.m in Sources */,
+				BD81BDB11BB46ABD00AB9F93 /* CockcroftGaultClearance.m in Sources */,
+				BD6E9ED11BB74BF600BF76AA /* DialysisTableItem.m in Sources */,
+				BD6E9ECE1BB74B6E00BF76AA /* EliminationTableItem.m in Sources */,
+				BD81BDB81BB46ABD00AB9F93 /* RenalInformation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81BD5C1BB4687100AB9F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD81BD651BB4687100AB9F93 /* VPATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD81BD671BB4687100AB9F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD81BD701BB4687100AB9F93 /* VPAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD81BD621BB4687100AB9F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD81BD461BB4687100AB9F93 /* VPA */;
+			targetProxy = BD81BD611BB4687100AB9F93 /* PBXContainerItemProxy */;
+		};
+		BD81BD6D1BB4687100AB9F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD81BD461BB4687100AB9F93 /* VPA */;
+			targetProxy = BD81BD6C1BB4687100AB9F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD81BD7D1BB46A5E00AB9F93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD81BD7E1BB46A5E00AB9F93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD81BD7F1BB46A5E00AB9F93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD81BD801BB46A5E00AB9F93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD81BD721BB4687100AB9F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD81BD731BB4687100AB9F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD81BD751BB4687100AB9F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VPA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vanco.VPA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD81BD761BB4687100AB9F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VPA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vanco.VPA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD81BD781BB4687100AB9F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VPATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vanco.VPATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPA.app/VPA";
+			};
+			name = Debug;
+		};
+		BD81BD791BB4687100AB9F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VPATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vanco.VPATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPA.app/VPA";
+			};
+			name = Release;
+		};
+		BD81BD7B1BB4687100AB9F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VPAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vanco.VPAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VPA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD81BD7C1BB4687100AB9F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VPAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vanco.VPAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VPA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD81BD421BB4687100AB9F93 /* Build configuration list for PBXProject "VPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81BD721BB4687100AB9F93 /* Debug */,
+				BD81BD731BB4687100AB9F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD81BD741BB4687100AB9F93 /* Build configuration list for PBXNativeTarget "VPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81BD751BB4687100AB9F93 /* Debug */,
+				BD81BD761BB4687100AB9F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD81BD771BB4687100AB9F93 /* Build configuration list for PBXNativeTarget "VPATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81BD781BB4687100AB9F93 /* Debug */,
+				BD81BD791BB4687100AB9F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD81BD7A1BB4687100AB9F93 /* Build configuration list for PBXNativeTarget "VPAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD81BD7B1BB4687100AB9F93 /* Debug */,
+				BD81BD7C1BB4687100AB9F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD81BD3F1BB4687100AB9F93 /* Project object */;
+}
