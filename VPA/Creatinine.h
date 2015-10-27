@@ -12,6 +12,7 @@
 
 @interface Creatinine : Molecule
 
--(instancetype)initWithFloat:(float)amt massUnit:(MassUnit)un;
+-(instancetype)initWithMassFloat:(float)amt massUnit:(MassUnit)un;
+-(instancetype)initWithMolarFloat:(float)amt molarUnit:(MolarUnit)un;
 
 @end

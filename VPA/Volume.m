@@ -23,31 +23,38 @@
 -(NSString*)unitString
 {
     if ([self unit] == ML) return @"mL";
+    else if ([self unit] == DL)return @"dL";
     else return @"L";
 }
 
 
 -(void)convertTo:(VolumeUnit)vu
 {
-    if (vu == L && [self unit] == ML){
-        [self setVolume:[NSNumber numberWithFloat:[[self volume]floatValue] / 1000]];
+    if ([self unit] > vu){
+        int factor = (int)[self unit] / (int) vu;
+        [self setVolume:[NSNumber numberWithFloat:[[self volume]floatValue] / factor]];
         [self setUnit:vu];
     }
-    else if (vu == ML && [self unit] == L){
-        [self setVolume:[NSNumber numberWithFloat:[[self volume]floatValue] * 1000]];
+    else if ([self unit] < vu){
+        int factor = (int)vu / (int)[self unit];
+        [self setVolume:[NSNumber numberWithFloat:[[self volume]floatValue] * factor]];
         [self setUnit:vu];
     }
 }
 
 -(Volume*)getVolumeAs:(VolumeUnit)vu
 {
-    if (vu == L && [self unit] ==ML){
-        return [[Volume alloc]initWithFloat:[[self volume]floatValue]/1000 andUnits:vu];
+
+    if ([self unit] > vu){
+        int factor = (int)[self unit] / (int)vu;
+        return  [[Volume alloc]initWithFloat:[[self volume]floatValue] / factor andUnits:vu];
     }
-    else if (vu ==ML && [self unit] == L){
-        return [[Volume alloc]initWithFloat:[[self volume]floatValue] * 1000 andUnits:vu];
+    else if ([self unit] < vu){
+        int factor = (int)vu / (int)[self unit];
+        return  [[Volume alloc]initWithFloat:[[self volume]floatValue] * factor andUnits:vu];
     }
-    else return [[Volume alloc]initWithFloat:[[self volume]floatValue] andUnits:[self unit]];
+    else
+        return  [[Volume alloc] initWithFloat:[[self volume]floatValue] andUnits:vu];
 }
 -(NSString*) valueAsString
 {
@@ -55,7 +62,7 @@
     [format setMaximumFractionDigits:2];
     return [NSString stringWithFormat:@"%@", [ format stringFromNumber:[self volume]]];
 }
-
+/*
 -(NSNumber*) getValueAs:(VolumeUnit)vu
 {
     if (vu == L && [self unit] == ML){
@@ -67,6 +74,7 @@
     else
         return [self volume];
 }
+ */
 
 -(NSString*)description
 {

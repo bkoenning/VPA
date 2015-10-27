@@ -11,8 +11,9 @@
 
 typedef enum
 {
-    ML = 0,
-    L = 1
+    L = 1,
+    DL = 10,
+    ML = 1000
 }VolumeUnit;
 
 
@@ -24,7 +25,7 @@ typedef enum
 -(instancetype) initWithFloat: (float) vol andUnits: (VolumeUnit) un;
 -(NSString*) unitString;
 -(void) convertTo: (VolumeUnit) vu;
--(NSNumber*) getValueAs:(VolumeUnit) vu;
+//-(NSNumber*) getValueAs:(VolumeUnit) vu;
 -(Volume*) getVolumeAs:(VolumeUnit)vu;
 
 

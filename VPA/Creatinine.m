@@ -10,15 +10,20 @@
 
 @implementation Creatinine
 
--(instancetype)initWithFloat:(float)amt massUnit:(MassUnit)un
+-(instancetype)initWithMassFloat:(float)amt massUnit:(MassUnit)un
 {
-    self = [super initWithFloat:amt massUnit:un molecularWeight:113.1179];
+    self = [super initWithMassFloat:amt massUnit:un molecularWeight:113.1179];
     return self;
+}
+-(instancetype)initWithMolarFloat:(float)amt molarUnit:(MolarUnit)un
+{
+    self = [super initWithMolarFloat:amt molarUnit:un molecularWeight:113.1179];
+    return  self;
 }
 
 -(instancetype)init
 {
-    self = [self initWithFloat:0 massUnit:MG];
+    self = [self initWithMassFloat:0 massUnit:MILLIGRAM];
     return  self;
 }
 
